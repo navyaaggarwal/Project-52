@@ -1,0 +1,40 @@
+.header{
+    background-color:aquamarine;
+    display:block;
+    justify-content:space-around;
+    font-family:sans-serif;
+}
+
+.grid{
+    background-color:lavender;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a:link{
+    color:forestgreen;
+
+}
+
+a:visited{
+    color:black;
+}
+
+.intro{
+    font-size: 15px;
+    justify-content:right;
+}
+
+.menu{
+    display:block;
+}
+
+.item:hover p{
+    opacity: 1;
+}
+
+.item:hover img{
+    opacity: 0.33;
+}
